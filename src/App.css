@@ -1,38 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span {
+  color: #666;
+}
+.text-orange {
+  color: #ff7900;
+}
+.heading {
+  background-color: #88bdc4 !important;
+}
+.college {
+  color: #4fb8dd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading {
+  background-color: #88bdc4 !important;
+}
+th {
+  --bs-table-color: white;
+  --bs-table-bg: #88bdc4;
+}
+.text-green {
+  color: #3eae8d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.college-cutoff {
+  background: #fff9e4;
+  border-left: 2px solid #ff7900;
 }
 
-.App-link {
-  color: #61dafb;
+.text-review {
+  color: #c86c80;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.college-ranking {
+  background: #eaf9fe;
+  border-left: 2px solid #42aee8;
+}
+
+.text-ranking {
+  color: #42aee8;
 }
